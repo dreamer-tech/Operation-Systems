@@ -1,0 +1,3 @@
+  786  whoami
+  787  hostname
+  788  history > ex2.txt
