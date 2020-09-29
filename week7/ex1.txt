@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   2006	    608	      8	   2622	    a3e	week3/ex1
