@@ -1,0 +1,5 @@
+One entry is needed per page --> number of pages = number of entries
+
+16-bit virt. address --> 2^16 addresses are accessible
+8KB page --> page sz = 1024 * 8 = 2^3 * 2^10 = 2^13
+Therefore 2^16/2^13 = 2^3 = 8 pages may be --> 8 entries

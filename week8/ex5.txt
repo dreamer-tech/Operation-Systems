@@ -1,0 +1,6 @@
+Physical address is real address that is present in hardware (in physical memory)
+
+But Virtual address is an address for process, it may not be equal to the physical one
+It may be greater than the size physical memory
+The correlation between virtual and physical is up to MMU (Memory Managment Unit) 
+MMU converts virtual address to the real one

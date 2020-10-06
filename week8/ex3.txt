@@ -1,0 +1,3 @@
+when we start ex2.c in background and write 'top -d 1'
+we see that the corresponding process increase its cpu and memory usage (I determined such process by PID)
+It's obvious as every second it allocates 10MB
