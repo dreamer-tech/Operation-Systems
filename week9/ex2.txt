@@ -1,0 +1,7 @@
+As we use Aging algorihtm then the hit-miss ratio strictly depends on what pages we are referencing for
+If we want to increase hit-miss ratio (increase hits and decrease misses) then we have to reference only pages we've referenced some steps (ticks) ago
+To decrease this ration we have to do vice versa - reference only pages we've referenced a long time ago
+
+Let's consider n = 10
+Increase ratio: 1 2 3 4 5 6 7 8 9 10 1 2 3 4 ... - cycle the sequence (1 2 3 4 5 6 7 8 9 10)
+Decrease ratio: 1 2 3 4 5 6 7 8 9 10 11 12 13 ... 20 1 2 3 ... - make 2 different page frames of length 'n' and then reference them consequently 
