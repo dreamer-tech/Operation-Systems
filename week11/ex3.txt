@@ -1,0 +1,11 @@
+The first program will print "Hello" 2 times
+The second one will print it only once
+
+It happens as while calling the system call fork() the program shares the buffer
+
+In the first program we just add "Hello" to the buffer and make fork call, so the the child process has also "Hello" in its buffer, 
+and then each process prints all out of its buffer after special character in printf '\n'
+
+In the second program we print "Hello" immediately as it contains special character in the end - '\n' and clear the buffer
+
+It works so as printf is a line buffer
